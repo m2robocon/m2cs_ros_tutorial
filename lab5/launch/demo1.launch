@@ -1,0 +1,4 @@
+<launch>
+    <node name="random_gen" pkg="lab5" type="caller.py" output="screen" respawn="true"/>
+    <node name="adder" pkg="lab5" type="adder.py" />
+</launch>

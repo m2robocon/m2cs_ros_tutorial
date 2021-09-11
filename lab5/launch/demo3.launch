@@ -1,0 +1,8 @@
+<launch>
+    <arg name="port" default="00:00:00:00" />
+    
+    <node name="arg_talker" pkg="lab5" type="arg_talker.py" output="screen">
+        <param name="port" type="str" value="$(arg port)" />
+    </node>
+</launch>
+

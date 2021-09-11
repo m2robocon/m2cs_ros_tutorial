@@ -1,0 +1,15 @@
+<launch>
+    <param name="global_example" value="global value" />
+
+    <node name="param_talker" pkg="lab5" type="param_talker.py" output="screen">
+        <param name="utterance" value="Hello World!" />
+        <param name="gains/kP" value="1.0" />
+        <param name="gains/kI" value="2.0" />
+        <param name="gains/kD" value="3.0" />
+    </node>
+    
+    <include file="$(find lab5)/launch/demo3.launch">
+        <arg name="port" value="12:34:56:78" />
+    </include>
+</launch>
+

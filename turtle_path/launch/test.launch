@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+	<node name="path_manager" pkg="turtle_path" type="path_manager.py" />
+</launch>
