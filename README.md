@@ -7,7 +7,7 @@ You should commit the source files containing the solutions to the assignments i
 
 ## Labs
 
-0. ROS Installation IDE setup and blink
+0. ROS Installation
 
 1. ROS Topics in Python
 
