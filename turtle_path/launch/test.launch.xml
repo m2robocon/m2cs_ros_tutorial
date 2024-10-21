@@ -1,0 +1,4 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" exec="turtlesim_node" output="screen"/>
+    <node name="path_manager" pkg="turtle_path" exec="path_manager" output="screen"/>
+</launch>

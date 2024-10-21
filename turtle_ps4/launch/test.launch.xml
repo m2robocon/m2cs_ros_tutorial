@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find-pkg-share m2_joy)/launch/joy_msg.launch.xml">
+        <arg name="joy" value="/dev/ds4red" />
+    </include>
+    <node name="turtlesim_node" pkg="turtlesim" exec="turtlesim_node" output="screen"/>
+    <node name="ps4_controller" pkg="turtle_ps4" exec="ps4_controller" output="screen"/>
+</launch>

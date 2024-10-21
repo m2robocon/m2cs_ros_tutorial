@@ -7,16 +7,16 @@ You should commit the source files containing the solutions to the assignments i
 
 ## Labs
 
-0. ROS Installation
+0. ROS 2 sInstallation
 
-1. ROS Topics in Python
+1. ROS 2 Topics in Python
 
-2. ROS Services in Python
+2. ROS 2 Services in Python
 
-3. ROS Package, msg, srv
+3. ROS 2 Package, msg, srv
 
 ## Assignments
 
-Assignment 1. Manual Controller with m2_ps4
+Assignment 1. Manual Controller with m2_joy
 
 Assignment 2. Automatic Path (I)
