@@ -7,7 +7,7 @@ You should commit the source files containing the solutions to the assignments i
 
 ## Labs
 
-0. ROS 2 sInstallation
+0. ROS 2 Installation
 
 1. ROS 2 Topics in Python
 
